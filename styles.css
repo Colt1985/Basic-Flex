@@ -16,7 +16,7 @@
 
 /*--------------------- HEADER --------------------*/
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,99 +24,106 @@ header{
     padding-bottom: 3.52vh;
 }
 
-.header-left, .header-right{
+.header-left,
+.header-right {
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
-.header-title{
+.header-title {
     margin-left: 1.35vw;
     font-family: 'PT Sans';
     font-size: 1.6vh;
     line-height: 1.85vh;
 }
 
-.header-phone{
+.header-phone {
     margin-left: 0.47vw;
     font-family: 'PT Sans';
     font-size: 1.48vh;
     line-height: 1.92vh;
 }
 
-.header-search{
+.header-search {
     margin-left: 1.6vw;
     padding: 0.5vw;
 }
 
 /*--------------------- DESCRIPTION --------------------*/
 
-.description{
+.description {
     margin-top: 4.35vh;
     display: flex;
     justify-content: space-between;
 }
 
-.description-left{
+.description-left {
     margin-top: 4.26vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.description-menu{
+.description-menu {
     max-width: 19.53vw;
     margin-top: 5.37vh;
 }
-.description-menu-footer{
+
+.description-menu-footer {
     margin-bottom: 2.96vh;
 }
-.description-title{
+
+.description-title {
     font-size: 5.55vh;
     line-height: 5.93vh;
     color: white;
     font-family: 'Gilroy';
 }
 
-.description-company, .description-product{
-margin-bottom: 2.22vh;
+.description-company,
+.description-product {
+    margin-bottom: 2.22vh;
 }
 
-.description-product, .description-goods{
+.description-product,
+.description-goods {
     margin-top: 2.22vh;
-    }
+}
 
-    .description-menu-line{
-        height: 1px;
-        background: linear-gradient(to right, #4b4b4b, #26262500);
-    }
-.description-menu-item{
+.description-menu-line {
+    height: 1px;
+    background: linear-gradient(to right, #4b4b4b, #26262500);
+}
+
+.description-menu-item {
     margin-left: 0.78vw;
 }
 
-.description-menu-content > span{
+.description-menu-content>span {
     font-size: 1.85vh;
     line-height: 1.85vh;
     margin-left: 0.78vw;
     font-family: 'PT Sans';
 }
 
-.description-menu-footer{
+.description-menu-footer {
     display: flex;
 }
-.description-menu-footer-item{
+
+.description-menu-footer-item {
     width: 31px;
     height: 2px;
 }
 
-.description-menu-footer-item:not(:first-child){
-margin-left: 0.92vh;
+.description-menu-footer-item:not(:first-child) {
+    margin-left: 0.92vh;
 }
 
-.description-right{
+.description-right {
     position: relative;
 }
 
-.description-price{
+.description-price {
     font-family: PT Sans;
     font-size: 2.22vh;
     line-height: 2.22vh;
@@ -124,63 +131,67 @@ margin-left: 0.92vh;
     background-color: #ff7028;
     color: white;
     position: absolute;
+}
+
+.description-price {
+
     top: 28.3vh;
     left: 12.3vh;
 }
 
-.description-tap{
+.description-tap {
     max-height: 51.1vh;
     display: block;
 }
 
 /*--------------------- DESCRIPTION-INTRO --------------------*/
 
-.description-intro{
+.description-intro {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.description-intro > div{
+.description-intro>div {
     margin-top: 7.59vh;
     margin-bottom: 7.59vh;
 }
 
-.intro-orange{
+.intro-orange {
     font-family: 'PT Sans';
     font-size: 1.6vh;
     line-height: 2.5vh;
     max-width: 30.73vw;
 }
 
-.intro-orange-content{
+.intro-orange-content {
     display: flex;
     align-items: center;
 }
 
-.intro-first-letter{
+.intro-first-letter {
     line-height: 3.98vh;
     font-size: 5vh;
 }
 
-.intro-first-title{
-font-weight: bold;
-}
-
-.intro-features{
-    max-width: 20.5vw;
-}
-
-.intro-feature-content-title{
+.intro-first-title {
     font-weight: bold;
 }
 
-.intro-feature{
+.intro-features {
+    max-width: 20.5vw;
+}
+
+.intro-feature-content-title {
+    font-weight: bold;
+}
+
+.intro-feature {
     display: flex;
     align-items: start;
 }
 
-.intro-feature-content{
+.intro-feature-content {
     font-family: 'PT Sans';
     font-size: 1.38vh;
     line-height: 1.85vh;
@@ -189,9 +200,128 @@ font-weight: bold;
     max-width: 13.07vw;
 }
 
-.intro-feature-content-title{
-    color: black!important;
+.intro-feature-content-title {
+    color: black !important;
     font-size: 1.48vh;
+}
+
+/*--------------------- PRODUCTS --------------------*/
+
+.products-container {
+    margin-top: 7.4vh;
+    margin-bottom: 9.26vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-family: 'Gilroy';
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #151716;
+}
+
+.products {
+    display: flex;
+    margin-top: 2.59vh;
+    justify-content: space-between;
+}
+
+.product {
+    position: relative;
+}
+
+.product>img {
+    max-width: 14.95vw;
+}
+
+.product-name {
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    font-size: 1.85vh;
+    line-height: 2.3vh;
+    position: absolute;
+    bottom: 2vh;
+    left: 1.25vw;
+
+}
+
+/*--------------------- COLLECTIONS --------------------*/
+
+.collections {
+    display: flex;
+}
+
+.collections>*,
+.collections-img {
+    width: 50vw;
+}
+
+.collections-img>img {
+    max-height: 61.57vh;
+}
+
+.collections-img {
+    position: relative;
+}
+
+.collections-content {
+    margin-left: 18.75vw;
+    margin-right: 3.65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collections-top>p {
+    color: #BEBEBE;
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 2.59vh;
+}
+
+.collections-title {
+    margin-top: 6.2vh;
+    font-family: 'Gilroy' !important;
+    font-weight: 400 !important;
+    font-size: 2.96vh !important;
+    line-height: 3.33vh !important;
+    color: white !important;
+}
+
+.collections-all {
+    margin-top: 2.4vw;
+    margin-bottom: 3.5vh;
+}
+
+.collections-all>span {
+    font-family: 'Gilroy';
+    font-size: 1.48vh;
+    line-height: 2.22vh;
+    color: #BEBEBE;
+    margin-left: 0.78vw;
+
+}
+
+.collections-img-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 1.6vh;
+    line-height: 3.2vh;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+.collection-img-title{
+top: 7.04vh; 
+left: 4.11vw;   
+}
+
+.collection-button{
+top: 10.55vh;
+left: 4.11vw;
 }
 
 /*--------------------- FONTS --------------------*/
@@ -200,10 +330,12 @@ font-weight: bold;
     font-family: Gilroy;
     src: url(content/fonts/Gilroy/gilroy-regular.ttf);
 }
+
 @font-face {
     font-family: PT Sans;
     src: url(content/fonts/PT_Sans/PTSans-Regular.ttf);
 }
+
 /*--------------------- COLORS --------------------*/
 
 .light-gray-1 {
@@ -239,7 +371,7 @@ font-weight: bold;
 }
 
 .orange-back {
-  background-color: #ff7028;
+    background-color: #ff7028;
 }
 
 .dark-gray {
