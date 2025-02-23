@@ -123,18 +123,26 @@ header {
     position: relative;
 }
 
-.price-button {
-    font-family: PT Sans;
+.price-button-small {
+    padding: 0.74vh;
+    font-size: 1.48vh;
+    line-height: 1.85vh;
+}
+
+.price-button-big {
     font-size: 2.22vh;
     line-height: 2.22vh;
     padding: 1.38vh;
+}
+
+.price-button {
+    font-family: PT Sans;
     background-color: #ff7028;
     color: white;
-    position: absolute;
 }
 
 .description-price {
-
+    position: absolute;
     top: 28.3vh;
     left: 12.3vh;
 }
@@ -322,6 +330,78 @@ header {
 .collections-button {
     top: 10.55vh;
     left: 4.11vw;
+    position: absolute;
+}
+
+/*--------------------- GOODS --------------------*/
+
+.goods-title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    margin-top: 7.4vh;
+    margin-bottom: 1.85vh;
+}
+
+.goods-items {
+    display: flex;
+}
+
+.goods-items>* {
+    border: 1px solid #ececec;
+}
+
+.good {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.good-img>img {
+    max-height: 1.85vh;
+    max-height: 17.4vh;
+}
+
+.good-img>.price-button {
+    max-width: 3.125vw;
+
+}
+
+.good-img>span {
+    margin: 1.1vh;
+}
+
+.good-img {
+    display: flex;
+    align-items: start;
+}
+
+.good-description {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2vh;
+}
+
+.good-price {
+    margin-left: 1.85vh;
+    margin-bottom: 2.2vh;
+    font-family: 'PT Sans';
+
+}
+
+.good-price-discount {
+    font-size: 1.48vh;
+    line-height: 1.48vh;
+    color: #a5a5a5;
+    text-decoration: line-through;
+}
+
+.good-price-normal {
+    color: black !important;
+    font-size: 1.85vh !important;
+    line-height: 1.85vh !important;
 }
 
 /*--------------------- FONTS --------------------*/
