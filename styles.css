@@ -336,10 +336,6 @@ header {
 /*--------------------- GOODS --------------------*/
 
 .goods-title {
-    font-family: 'Gilroy';
-    font-weight: 400;
-    font-size: 2.96vh;
-    line-height: 3.33vh;
     margin-top: 7.4vh;
     margin-bottom: 1.85vh;
 }
@@ -361,6 +357,7 @@ header {
 .good-img>img {
     max-height: 1.85vh;
     max-height: 17.4vh;
+    
 }
 
 .good-img>.price-button {
@@ -403,6 +400,65 @@ header {
     font-size: 1.85vh !important;
     line-height: 1.85vh !important;
 }
+
+/*--------------------- ADVANTAGES --------------------*/
+
+.advantages{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 49.94vw;
+}
+
+.advantages-title{
+    margin: 0 auto;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    margin-top: 6.48vh;
+    margin-bottom: 5vh;
+}
+
+.advantages-items{
+    margin: 0 auto;
+    margin-bottom: 7.4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 14.68vw;
+}
+
+.advantage-lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-title{
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 1.85vh;
+    line-height: 2.13vh;
+    margin-top: 2.22vh;
+}
+
+.advantage-description{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'PT Sans';
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    margin-top: 1vh;
+    color: #7b7b7b;
+}
+
 
 /*--------------------- FONTS --------------------*/
 
