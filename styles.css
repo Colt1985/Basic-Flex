@@ -9,7 +9,6 @@
 
 .wrapper {
     width: 62.5vw;
-    border: 1px solid black;
     /*Выравнивание по центру*/
     margin: 0 auto;
 }
@@ -336,6 +335,10 @@ header {
 /*--------------------- GOODS --------------------*/
 
 .goods-title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
     margin-top: 7.4vh;
     margin-bottom: 1.85vh;
 }
@@ -357,7 +360,7 @@ header {
 .good-img>img {
     max-height: 1.85vh;
     max-height: 17.4vh;
-    
+
 }
 
 .good-img>.price-button {
@@ -403,14 +406,14 @@ header {
 
 /*--------------------- ADVANTAGES --------------------*/
 
-.advantages{
+.advantages {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     max-width: 49.94vw;
 }
 
-.advantages-title{
+.advantages-title {
     margin: 0 auto;
     font-family: 'Gilroy';
     font-weight: 400;
@@ -420,7 +423,7 @@ header {
     margin-bottom: 5vh;
 }
 
-.advantages-items{
+.advantages-items {
     margin: 0 auto;
     margin-bottom: 7.4vh;
     display: flex;
@@ -428,20 +431,20 @@ header {
     align-items: center;
 }
 
-.advantage{
+.advantage {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 14.68vw;
 }
 
-.advantage-lower{
+.advantage-lower {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.advantage-title{
+.advantage-title {
     font-family: Gilroy;
     font-weight: 400;
     font-size: 1.85vh;
@@ -449,7 +452,7 @@ header {
     margin-top: 2.22vh;
 }
 
-.advantage-description{
+.advantage-description {
     text-align: center;
     font-weight: 400;
     font-family: 'PT Sans';
@@ -459,17 +462,123 @@ header {
     color: #7b7b7b;
 }
 
+/*--------------------- ORANGE BOTTOM --------------------*/
+.orange-bottom {
+    position: relative;
+}
+
+.orange-bottom-img {
+    width: 100vw;
+    display: block;
+}
+
+.orange-bottom-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 18.5vw;
+    width: 63vw;
+    background-color: #f6761a;
+    font-family: 'Gilroy';
+    padding-top: 3.8vh;
+    padding-bottom: 4.35vh;
+    font-size: 2.59vh;
+    line-height: 3.33vh;
+    font-weight: 400;
+}
+
+/*--------------------- FOOTER --------------------*/
+
+.orange-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.orange-footer-wrapper{
+    padding-top: 5.55vh;
+    padding-bottom: 2.22vh;
+
+}
+.orange-menu-title {
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    font-size: 1.48vh;
+    line-height: 1.75vh;
+}
+
+.orange-upper-margin {
+    margin-top: 1.85vh;
+}
+
+.orange-bottom-margin {
+    margin-bottom: 1.85vh;
+}
+
+.orange-footer-menu-item {
+    color: #BEBEBE;
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 2.59vh;
+}
+
+.orange-footer-menu-item>span {
+    margin-left: 0.78vw;
+}
+
+.orange-copyright {
+    display: flex;
+    justify-content: end;
+    color: #747474;
+    font-size: 1.1vh;
+    line-height: 1.3vh;
+    font-family: 'Roboto';
+    align-items: center;
+    margin-top: 5.18vh;
+}
+
+.orange-copyright-developed-by {
+    margin-left: 1.25vw;
+    border: 1px solid #494949;
+    padding-top: 0.74vh;
+    padding-bottom: 0.74vh;
+    padding-left: 0.625vw;
+    padding-right: 0.625vw;
+}
+
+/*--------------------- BOTTOM --------------------*/
+
+.bottom-line {
+    border: 1px solid #484848;
+}
+
+.arrow-up {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-up>img {
+    margin-top: 3.98vh;
+    margin-bottom: 3.98vh;
+}
 
 /*--------------------- FONTS --------------------*/
 
 @font-face {
-    font-family: Gilroy;
+    font-family: 'Gilroy';
     src: url(content/fonts/Gilroy/gilroy-regular.ttf);
 }
 
 @font-face {
-    font-family: PT Sans;
+    font-family: 'PT Sans';
     src: url(content/fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(content/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 /*--------------------- COLORS --------------------*/
@@ -516,4 +625,8 @@ header {
 
 .dark-gray-back {
     background-color: #060707d9;
+}
+
+.dark-gray-back-2 {
+    background-color: #202122;
 }
